@@ -1,0 +1,53 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+h3 {
+  font-size: 1.6em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.bio {
+  margin: 1.2em 0;
+}
+
+.bio li {
+  line-height: 1.1;
+  margin: 0;
+}
+
+.bio ul {
+  list-style: none;
+}
+
+.container {
+  margin: 5em auto;
+}
+
+.extended-network {
+  border: 1px solid #000;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.name {
+  margin-bottom: 0.5em;
+}
+
+.online {
+  display: block;
+  margin-bottom: 0.8em;
+}
+
+.profile {
+  width: 100%;
+}
+
+.title-bar {
+  background-color: #FDD194;
+  color: #FF8026;
+  font-size: 1em;
+  margin: 0.5em 0;
+  padding: 0.1em 0.4em;
+}
