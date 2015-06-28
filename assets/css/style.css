@@ -8,6 +8,10 @@ h3 {
   margin: 0;
 }
 
+p {
+  font-size: 0.8em;
+}
+
 .bio {
   margin: 1.2em 0;
 }
@@ -22,13 +26,34 @@ h3 {
 }
 
 .container {
-  margin: 5em auto;
+  margin: 3em auto;
 }
 
 .extended-network {
   border: 1px solid #000;
   padding: 2em 0;
   text-align: center;
+}
+
+.friends {
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+.friends a {
+  color: #273894;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+.friends img {
+  width: 100%
+}
+
+.header {
+  background-color: #00319F;
+  border-bottom: 1.5em solid #5C9AD5;
+  height: 4em;
 }
 
 .name {
@@ -48,6 +73,6 @@ h3 {
   background-color: #FDD194;
   color: #FF8026;
   font-size: 1em;
-  margin: 0.5em 0;
+  margin: 1em 0;
   padding: 0.1em 0.4em;
 }
