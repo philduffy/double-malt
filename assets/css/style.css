@@ -25,6 +25,18 @@ p {
   list-style: none;
 }
 
+.contact {
+  border-width: 0 1px 1px;
+  border-color: #000;
+  border-style: solid;
+  padding: 0.8em;
+}
+
+.contact li {
+  display: inline-block;
+  width: 49%;
+}
+
 .container {
   margin: 3em auto;
 }
@@ -56,6 +68,15 @@ p {
   height: 4em;
 }
 
+.media-links {
+  margin-top: 1em;
+}
+
+.media-links a {
+  color: #002C6F;
+  font-weight: 600;
+}
+
 .name {
   margin-bottom: 0.5em;
 }
@@ -70,9 +91,21 @@ p {
 }
 
 .title-bar {
-  background-color: #FDD194;
-  color: #FF8026;
   font-size: 1em;
   margin: 1em 0;
   padding: 0.1em 0.4em;
+}
+
+.title-bar.blue {
+  background-color: #6699CC;
+  color: #FFFFFF;
+}
+
+.title-bar.contact-title {
+  margin-bottom: 0;
+}
+
+.title-bar.orange {
+  background-color: #FDD194;
+  color: #FF8026;
 }
